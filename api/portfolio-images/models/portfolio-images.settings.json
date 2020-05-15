@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portfolio_images",
+  "info": {
+    "name": "portfolio-images"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "category": {
+      "unique": true,
+      "model": "portfolio-categories"
+    }
+  }
+}
