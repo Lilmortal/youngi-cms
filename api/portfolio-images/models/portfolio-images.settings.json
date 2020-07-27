@@ -9,20 +9,30 @@
     "timestamps": true
   },
   "attributes": {
-    "images": {
-      "collection": "file",
+    "category": {
+      "model": "portfolio-categories"
+    },
+    "image": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
-        "files",
         "images",
+        "files",
         "videos"
       ],
       "plugin": "upload",
-      "required": true
+      "required": false
     },
-    "category": {
-      "unique": true,
-      "model": "portfolio-categories"
+    "subImages": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

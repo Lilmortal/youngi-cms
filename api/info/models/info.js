@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `portfolio-image-description` model.
+ * Lifecycle callbacks for the `info` model.
  */
 
 module.exports = {
