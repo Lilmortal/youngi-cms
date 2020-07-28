@@ -1,17 +1,14 @@
 {
   "kind": "singleType",
-  "collectionName": "infos",
+  "collectionName": "works",
   "info": {
-    "name": "Info"
+    "name": "Work"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "biography": {
-      "type": "richtext"
-    },
     "metaTitle": {
       "type": "string"
     },
