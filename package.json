@@ -7,28 +7,28 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi",
-    "deploy": "git add . && git commit -am \"updated changes\" && git push && git push heroku master"
+    "strapi": "strapi"
   },
+  "devDependencies": {},
   "dependencies": {
     "knex": "<0.20.0",
-    "pg": "^8.0.3",
     "sqlite3": "latest",
-    "strapi": "3.0.0-beta.20.1",
-    "strapi-admin": "3.0.0-beta.20.1",
-    "strapi-connector-bookshelf": "3.0.0-beta.20.1",
-    "strapi-plugin-content-manager": "3.0.0-beta.20.1",
-    "strapi-plugin-content-type-builder": "3.0.0-beta.20.1",
-    "strapi-plugin-email": "3.0.0-beta.20.1",
-    "strapi-plugin-upload": "3.0.0-beta.20.1",
-    "strapi-plugin-users-permissions": "3.0.0-beta.20.1",
-    "strapi-utils": "3.0.0-beta.20.1"
+    "strapi": "3.1.2",
+    "strapi-admin": "3.1.2",
+    "strapi-connector-bookshelf": "3.1.2",
+    "strapi-plugin-content-manager": "3.1.2",
+    "strapi-plugin-content-type-builder": "3.1.2",
+    "strapi-plugin-email": "3.1.2",
+    "strapi-plugin-upload": "3.1.2",
+    "strapi-plugin-users-permissions": "3.1.2",
+    "strapi-provider-upload-aws-s3": "^3.1.2",
+    "strapi-utils": "3.1.2"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "7407b782-3100-4712-a2c9-348ba93b1dcc"
+    "uuid": "2768bb2e-1aba-4f03-80cd-fb928fc1f576"
   },
   "engines": {
     "node": ">=10.0.0",
