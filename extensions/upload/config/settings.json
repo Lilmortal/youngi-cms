@@ -1,8 +1,8 @@
 {
   "provider": "aws-s3",
   "providerOptions": {
-    "accessKeyId": "AKIAJTFHXCVMRBTFEZCQ",
-    "secretAccessKey": "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",
+    "accessKeyId": "${process.env.ACCESS_KEY}",
+    "secretAccessKey": "${process.env.SECRET_ACCESS_KEY}",
     "region": "ap-southeast-2",
     "params": {
       "Bucket": "youngi-ui"

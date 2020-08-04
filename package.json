@@ -9,7 +9,9 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "node-env-run": "^4.0.1"
+  },
   "dependencies": {
     "knex": "<0.20.0",
     "sqlite3": "latest",
