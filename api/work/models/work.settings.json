@@ -17,6 +17,24 @@
     },
     "backgroundText": {
       "type": "string"
+    },
+    "tabletColumnSize": {
+      "type": "string"
+    },
+    "tabletRowSize": {
+      "type": "string"
+    },
+    "mobileColumnSize": {
+      "type": "string"
+    },
+    "mobileRowSize": {
+      "type": "string"
+    },
+    "desktopColumnSize": {
+      "type": "string"
+    },
+    "desktopRowSize": {
+      "type": "string"
     }
   }
 }

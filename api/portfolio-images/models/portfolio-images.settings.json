@@ -33,6 +33,24 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "mobileColumn": {
+      "type": "string"
+    },
+    "mobileRow": {
+      "type": "string"
+    },
+    "tabletColumn": {
+      "type": "string"
+    },
+    "tabletRow": {
+      "type": "string"
+    },
+    "desktopColumn": {
+      "type": "string"
+    },
+    "desktopRow": {
+      "type": "string"
     }
   }
 }
