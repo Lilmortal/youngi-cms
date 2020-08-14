@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/modal-images",
+      "handler": "modal-image.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/modal-images/count",
+      "handler": "modal-image.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/modal-images/:id",
+      "handler": "modal-image.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/modal-images",
+      "handler": "modal-image.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/modal-images/:id",
+      "handler": "modal-image.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/modal-images/:id",
+      "handler": "modal-image.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

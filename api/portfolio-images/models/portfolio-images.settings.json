@@ -23,17 +23,6 @@
       "plugin": "upload",
       "required": false
     },
-    "subImages": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "mobileColumn": {
       "type": "string"
     },
@@ -51,6 +40,9 @@
     },
     "desktopRow": {
       "type": "string"
+    },
+    "modalImages": {
+      "collection": "modal-image"
     }
   }
 }
