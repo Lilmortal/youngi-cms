@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/work",
-      "handler": "work.find",
+      "path": "/portfolio",
+      "handler": "portfolio.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/work",
-      "handler": "work.update",
+      "path": "/portfolio",
+      "handler": "portfolio.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/work",
-      "handler": "work.delete",
+      "path": "/portfolio",
+      "handler": "portfolio.delete",
       "config": {
         "policies": []
       }

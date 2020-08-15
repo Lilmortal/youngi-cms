@@ -20,10 +20,7 @@
       "plugin": "upload",
       "required": false
     },
-    "title": {
-      "type": "string"
-    },
-    "description": {
+    "caption": {
       "type": "string"
     }
   }

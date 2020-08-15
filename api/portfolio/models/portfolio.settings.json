@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "portfolios",
+  "info": {
+    "name": "Portfolio"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "string"
+    },
+    "loaderText": {
+      "type": "string"
+    },
+    "numberOfColumns": {
+      "type": "integer"
+    },
+    "rowPixels": {
+      "type": "integer"
+    }
+  }
+}

@@ -23,26 +23,60 @@
       "plugin": "upload",
       "required": false
     },
-    "mobileColumn": {
-      "type": "string"
-    },
-    "mobileRow": {
-      "type": "string"
-    },
-    "tabletColumn": {
-      "type": "string"
-    },
-    "tabletRow": {
-      "type": "string"
-    },
-    "desktopColumn": {
-      "type": "string"
-    },
-    "desktopRow": {
-      "type": "string"
-    },
     "modalImages": {
       "collection": "modal-image"
+    },
+    "mobileStartingColumnPosition": {
+      "type": "integer"
+    },
+    "mobileEndingColumnPosition": {
+      "type": "integer"
+    },
+    "tabletStartingColumnPosition": {
+      "type": "integer"
+    },
+    "tabletEndingColumnPosition": {
+      "type": "integer"
+    },
+    "desktopStartingColumnPosition": {
+      "type": "integer"
+    },
+    "desktopEndingColumnPosition": {
+      "type": "integer"
+    },
+    "mobileStartingRowPosition": {
+      "type": "integer"
+    },
+    "mobileEndingRowPosition": {
+      "type": "integer"
+    },
+    "tabletStartingRowPosition": {
+      "type": "integer"
+    },
+    "tabletEndingRowPosition": {
+      "type": "integer"
+    },
+    "desktopStartingRowPosition": {
+      "type": "integer"
+    },
+    "desktopEndingRowPosition": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "hoveredTextFontSizes": {
+      "type": "enumeration",
+      "enum": [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl"
+      ]
     }
   }
 }
