@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "image_positions",
+  "info": {
+    "name": "Image-Positions"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "mobileColumnStartPosition": {
+      "type": "integer"
+    },
+    "mobileColumnEndPosition": {
+      "type": "integer"
+    },
+    "tabletColumnStartPosition": {
+      "type": "integer"
+    },
+    "tabletColumnEndPosition": {
+      "type": "integer"
+    },
+    "desktopColumnStartPosition": {
+      "type": "integer"
+    },
+    "desktopColumnEndPosition": {
+      "type": "integer"
+    },
+    "mobileRowStartPosition": {
+      "type": "integer"
+    },
+    "mobileRowEndPosition": {
+      "type": "integer"
+    },
+    "tabletRowStartPosition": {
+      "type": "integer"
+    },
+    "tabletRowEndPosition": {
+      "type": "integer"
+    },
+    "desktopRowStartPosition": {
+      "type": "integer"
+    },
+    "desktopRowEndPosition": {
+      "type": "integer"
+    }
+  }
+}

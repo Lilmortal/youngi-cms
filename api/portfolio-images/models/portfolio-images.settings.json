@@ -26,42 +26,6 @@
     "modalImages": {
       "collection": "modal-image"
     },
-    "mobileStartingColumnPosition": {
-      "type": "integer"
-    },
-    "mobileEndingColumnPosition": {
-      "type": "integer"
-    },
-    "tabletStartingColumnPosition": {
-      "type": "integer"
-    },
-    "tabletEndingColumnPosition": {
-      "type": "integer"
-    },
-    "desktopStartingColumnPosition": {
-      "type": "integer"
-    },
-    "desktopEndingColumnPosition": {
-      "type": "integer"
-    },
-    "mobileStartingRowPosition": {
-      "type": "integer"
-    },
-    "mobileEndingRowPosition": {
-      "type": "integer"
-    },
-    "tabletStartingRowPosition": {
-      "type": "integer"
-    },
-    "tabletEndingRowPosition": {
-      "type": "integer"
-    },
-    "desktopStartingRowPosition": {
-      "type": "integer"
-    },
-    "desktopEndingRowPosition": {
-      "type": "integer"
-    },
     "title": {
       "type": "string"
     },
@@ -77,6 +41,12 @@
         "lg",
         "xl"
       ]
+    },
+    "mainPositions": {
+      "model": "image-positions"
+    },
+    "categoryPositions": {
+      "model": "image-positions"
     }
   }
 }
