@@ -1,15 +1,15 @@
 {
   "kind": "collectionType",
-  "collectionName": "image_positions",
+  "collectionName": "portfolio_positions",
   "info": {
-    "name": "Image-Positions"
+    "name": "Portfolio-Positions"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "name": {
+    "description": {
       "type": "string"
     },
     "mobileColumnStartPosition": {

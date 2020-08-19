@@ -43,10 +43,10 @@
       ]
     },
     "mainPositions": {
-      "model": "image-positions"
+      "model": "portfolio-positions"
     },
     "categoryPositions": {
-      "model": "image-positions"
+      "model": "portfolio-positions"
     }
   }
 }
