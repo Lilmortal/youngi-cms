@@ -47,6 +47,9 @@
     },
     "categoryPositions": {
       "model": "portfolio-positions"
+    },
+    "tabOrder": {
+      "type": "integer"
     }
   }
 }
